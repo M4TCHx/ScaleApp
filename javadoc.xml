@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" classpath="libs/android-support-v4.jar;C:\Program Files (x86)\Android\android-sdk\tools\support\annotations.jar" packagenames="com.eaesthetics.scaleapp" sourcepath="src;gen">
+            <doclet name="" path=""/>
+        </javadoc>
+    </target>
+</project>

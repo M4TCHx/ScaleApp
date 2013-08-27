@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Scale</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_splash">Scale</string>
+    <string name="instructions_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="step_1">Needed for this scale are 3 elastic bands, a short piece of string or wire, a small basket of your choice, and a table with a square edge. First, wrap a single elastic around the top and bottom of the phone. Then cut and attached the third elastic to the elastic wrapped around the bottom, below the phone. Allow the phone to rest half way off the table.</string>
+    <string name="step_2">Attach the empty basket to the top elastic using string, wire, ect.</string>
+    <string name="step_3">Pin the free elastic band to the table with index finger. Allow phone to partially hang off table with resistance on the elastic. Press the first button when the basket is empty. Add a nickel and press the second button. Remove the nickel and finally add the item of desired mass, then press the last button.</string>
+    
+
+</resources>

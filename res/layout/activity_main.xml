@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    >
+
+    <TextView
+        android:id="@+id/vInitialAngleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/bFiveGramButton"
+        android:text="The initial angle is "
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/vFinalAngleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="The final Angle is"
+        tools:context=".MainActivity" 
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/vFiveGramView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vInitialAngleView"
+        android:layout_alignParentLeft="true"
+        android:text="The Angle at 5 grams "
+        tools:context=".MainActivity" 
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/vChangeInAngleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/vFinalAngleView"
+        android:text="Change in Angle is"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/vTheConstantView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bFiveGramButton"
+        android:text="The constant is " 
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/bInitialButton"
+        android:text="Debug Information"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/vDebug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        tools:context=".MainActivity"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bInstructionsButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Instructions" />
+
+    <Button
+        android:id="@+id/bFinalAngleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Calculate mass" />
+
+    <Button
+        android:id="@+id/bFiveGramButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/vChangeInAngleView"
+        android:text="Calibrate with Nickel" />
+
+    <Button
+        android:id="@+id/bInitialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Press when Empty" />
+
+    <TextView
+        android:id="@+id/vCalculatedMassView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bInitialButton"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@+id/vChangeInAngleView"
+        android:text="The Calculated Mass is "
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
